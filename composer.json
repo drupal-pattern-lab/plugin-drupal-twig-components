@@ -1,6 +1,6 @@
 {
   "name":             "pattern-lab/drupal-twig-components",
-  "description":      "A collection of Twig components to be used with Drupal- and Twig-related StarterKits.",
+  "description":      "A collection of Twig components to be used with Drupal and Twig-related StarterKits.",
   "keywords":         ["drupal", "pattern lab", "twig"],
   "homepage":         "http://patternlab.io",
   "license":          "MIT",
@@ -17,6 +17,9 @@
     "issues":         "https://github.com/pattern-lab/plugin-drupal-twig-components/issues",
     "wiki":           "http://patternlab.io/docs/",
     "source":         "https://github.com/pattern-lab/plugin-drupal-twig-components/releases"
+  },
+  "autoload": {
+    "psr-4": {"DrupalPatternLab\\TwigExtensions\\": "src/"}
   },
   "extra": {
     "patternlab": {

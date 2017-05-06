@@ -41,7 +41,7 @@ class ExtensionAdapter extends \Twig_Extension {
    * {@inheritdoc}
    */
   public function getName() {
-    return 'patternlab_ext_adapter';
+    return 'drupal_patternlab_ext_adapter';
   }
 
 }
